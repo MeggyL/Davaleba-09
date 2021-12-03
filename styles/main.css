@@ -18,13 +18,24 @@
   color: #ffffff;
   font-size: 32px;
 }
-.circle-item {
+.circles {
   display: flex;
 }
-.circle {
+.circle-item {
   background-color: #ffffff;
   width: 10px;
   height: 10px;
   margin: 5px;
   border-radius: 50%;
+}
+.circles span {
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+.box .circles {
+  display: flex;
 }
