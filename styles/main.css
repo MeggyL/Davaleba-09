@@ -1,0 +1,30 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.container {
+  max-width: 100%;
+  width: 1920px;
+  margin: 0 auto;
+}
+.box {
+  background-color: #0a22f4;
+  height: 270px;
+}
+.box h3 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.circle-item {
+  display: flex;
+}
+.circle {
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 50%;
+}
