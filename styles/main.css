@@ -5,8 +5,70 @@
   box-sizing: border-box;
   font-size: 100%;
 }
-.conteiner {
+/* reset css */
+
+.container {
   max-width: 1920px;
   width: 100%;
-  margin: 0 auto;
+  background-color: #0A22F4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.basictext {
+  color: white;
+  padding-top: 200px;
+  padding-left: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.map {
+  width: 463px;
+  height: 197px;
+  margin-top: 58px;
+}
+.flex { 
+  display: flex;
+}
+
+.basictext h3 {
+  font-size: 32px;
+  width: 162px;
+  height: 38px;
+
+}
+
+.text {
+  font-size: 16px;
+  width: 463px;
+  height: 99px;
+  margin-top: 16px;
+}
+
+.flex img {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  padding: 22px;
+}
+
+.flex p {
+  font-size: 22px;
+  
+}
+.icons {
+  justify-content: flex-start;
+  margin-top: 92px;
+}
+.contactbox { 
+  justify-content: space-between;
+}
+.message { 
+  margin-left: 30px;
+}
+.contactbox p {
+  padding-left: 20px;
+  padding-top: 20px;
 }
