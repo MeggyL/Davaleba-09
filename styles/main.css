@@ -81,6 +81,7 @@
   font-family: "Helvetica Neue";
   cursor: pointer;
 }
+<<<<<<< HEAD
 . content-box {
   
   display: flex;
@@ -135,6 +136,8 @@ object-fit: cover;
   margin-top: 278px;
   display: flex;
 }
+=======
+>>>>>>> 4e557c67135868481b137444583ce2290267b810
 .background {
   width: 100%;
   background-color: #0A22F4;
@@ -160,11 +163,14 @@ object-fit: cover;
 .flex { 
   display: flex;
 }
-
+.contactheader{ 
+  color: white;
+}
 .basictext h3 {
   font-size: 32px;
   width: 162px;
   height: 38px;
+  color: white;
 
 }
 
@@ -257,11 +263,6 @@ footer {
 .made {
   justify-content: space-around;
 }
-
-.heart {
-
-}
-
 .bottomlogo {
   width: 126px;
 
