@@ -43,7 +43,7 @@
 }
 .box .circles {
   display: flex;
-  margin-left: 1185px;
+  margin-left: 700px;
   justify-content: space-around;
 }
 .images {
@@ -78,7 +78,8 @@
 }
 .projects {
   margin-top: 70px;
-  padding-left: 1519px;
+  margin-left: 1000px;
   font-size: 18px;
   font-family: "Helvetica Neue";
+  cursor: pointer;
 }
