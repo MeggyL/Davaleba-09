@@ -72,3 +72,34 @@
   padding-left: 20px;
   padding-top: 20px;
 }
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.form-field input {
+  width: 463px;
+  height: 60px;
+  background-color: #0A22F4;
+  border: none;
+  border-bottom: 0.5px solid white;
+
+}
+.inputposition {
+  margin-top: -550px;
+  margin-left: 850px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+button {
+  background-color: white;
+  width: 155px;
+  height: 55px;
+  padding-left: 18 45 18 36;
+  margin-left: 300px;
+  margin-top: 15px;
+
+}
