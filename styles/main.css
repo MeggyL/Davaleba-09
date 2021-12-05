@@ -81,7 +81,7 @@
   font-family: "Helvetica Neue";
   cursor: pointer;
 }
-. content-box {
+.content-box {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -106,15 +106,15 @@ p {
 p span {
   color: #0a22f4;
 }
-img {
+.img {
   width: 219px;
   height: 82px;
   object-fit: cover;
 }
-. circles {
+.circles {
   display: flex;
 }
-. circles span {
+.circles span {
   width: 10px;
   height: 10px;
   display: block;
@@ -124,10 +124,10 @@ img {
   border-radius: 50%;
   margin-top: 180px;
 }
-. circles circle1 {
+.circles circle1 {
   opacity: 1;
 }
-. text {
+.text {
   display: flex;
 }
 .logos {
@@ -221,7 +221,7 @@ img {
   color: white;
   opacity: 1;
 }
-button {
+.button {
   background-color: white;
   width: 155px;
   height: 55px;
@@ -230,7 +230,7 @@ button {
   margin-top: 15px;
 }
 
-footer {
+.footer {
   background-color: #0a22f4;
 }
 
