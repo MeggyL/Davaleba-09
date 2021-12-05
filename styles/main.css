@@ -13,13 +13,17 @@
 .box {
   background-color: #0a22f4;
   height: 270px;
+  display: flex;
 }
 .box h3 {
   color: #ffffff;
   font-size: 32px;
+  margin-top: 70px;
+  margin-left: 240px;
 }
 .circles {
   display: flex;
+  margin-top: 84px;
 }
 .circle-item {
   background-color: #ffffff;
@@ -38,4 +42,39 @@
 }
 .box .circles {
   display: flex;
+  margin-left: 1185px;
+  justify-content: space-around;
+}
+.images {
+  display: flex;
+  margin-top: -80px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.images img {
+  position: absolute;
+  width: 463px;
+  height: 420px;
+}
+.images p {
+  position: relative;
+  background-color: #ffffff;
+  background-size: 443px 125px;
+  width: 339px;
+  height: 65px;
+  margin: 315px 84px 40px 40px;
+}
+.img2 {
+  margin-top: -30px;
+  border-radius: 15px;
+}
+.text2 {
+  width: 346px;
+  height: 68px;
+  margin: 313px 77px 39px 40px;
+}
+.projects {
+  margin-top: 70px;
+  padding-left: 1519px;
+  font-size: 18px;
 }
