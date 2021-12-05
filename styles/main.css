@@ -20,6 +20,7 @@
   font-size: 32px;
   margin-top: 70px;
   margin-left: 240px;
+  font-family: "Helvetica Neue";
 }
 .circles {
   display: flex;
@@ -63,6 +64,7 @@
   width: 339px;
   height: 65px;
   margin: 315px 84px 40px 40px;
+  font-family: "Helvetica Neue";
 }
 .img2 {
   margin-top: -30px;
@@ -72,9 +74,11 @@
   width: 346px;
   height: 68px;
   margin: 313px 77px 39px 40px;
+  font-family: "HelveticaNeue bold";
 }
 .projects {
   margin-top: 70px;
   padding-left: 1519px;
   font-size: 18px;
+  font-family: "Helvetica Neue";
 }
