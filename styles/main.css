@@ -87,7 +87,7 @@
   flex-wrap: wrap;
   align-content: space-between;
 }
-h3 {
+.text h3 {
   width: 226px;
   height: 38px;
   color: #171717;
@@ -95,7 +95,7 @@ h3 {
   margin-top: 180px;
   font-family: "HelveticaNeue";
 }
-p {
+.text p {
   width: 463px;
   height: 99px;
   color: #171717;
