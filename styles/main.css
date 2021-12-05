@@ -221,7 +221,7 @@ p span {
   color: white;
   opacity: 1;
 }
-.button {
+button {
   background-color: white;
   width: 155px;
   height: 55px;
@@ -230,7 +230,7 @@ p span {
   margin-top: 15px;
 }
 
-.footer {
+footer {
   background-color: #0a22f4;
 }
 
