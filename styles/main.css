@@ -81,66 +81,14 @@
   font-family: "Helvetica Neue";
   cursor: pointer;
 }
-. container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-h3 {
-  width: 226px;
-  height: 38px;
-  color: #171717;
-  font-size: 32px;
-  margin-top: 180px;
-  font-family: "HelveticaNeue";
-}
-p {
-  width: 463px;
-  height: 99px;
-  color: #171717;
-  font-size: 16px;
-  margin-top: 60px;
-  font-family: "HelveticaNeueLTW01-55Roman";
-}
-p span {
-  color: #0a22f4;
-}
-img {
-  width: 219px;
-  height: 82px;
-  object-fit: cover;
-}
-. circles {
-  display: flex;
-}
-. circles span {
-  width: 10px;
-  height: 10px;
-  display: block;
-  margin: 5px;
-  background-color: #0a22f4;
-  opacity: 0.3;
-  border-radius: 50%;
-  margin-top: 180px;
-}
-. circles circle1 {
-  opacity: 1;
-}
-. text {
-  display: flex;
-}
-.logos {
-  margin-top: 278px;
-  display: flex;
-  align-content: space-between;
-}
 .background {
   width: 100%;
-  background-color: #0a22f4;
+  background-color: #0A22F4;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
+
 .basictext {
   color: white;
   padding-top: 200px;
@@ -148,20 +96,25 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-family: "Helvetica Neue";
+  font-family: 'Helvetica Neue';
 }
 .map {
   width: 463px;
   height: 197px;
   margin-top: 58px;
 }
-.flex {
+.flex { 
   display: flex;
+}
+.contactheader{ 
+  color: white;
 }
 .basictext h3 {
   font-size: 32px;
   width: 162px;
   height: 38px;
+  color: white;
+
 }
 
 .text {
@@ -180,15 +133,16 @@ img {
 
 .flex p {
   font-size: 22px;
+  
 }
 .icons {
   justify-content: flex-start;
   margin-top: 92px;
 }
-.contactbox {
+.contactbox { 
   justify-content: space-between;
 }
-.message {
+.message { 
   margin-left: 30px;
 }
 .contactbox p {
@@ -204,9 +158,10 @@ img {
 .form-field input {
   width: 463px;
   height: 60px;
-  background-color: #0a22f4;
+  background-color: #0A22F4;
   border: none;
   border-bottom: 0.5px solid white;
+
 }
 .inputposition {
   margin-top: -550px;
@@ -223,10 +178,13 @@ button {
   padding-left: 18 45 18 36;
   margin-left: 300px;
   margin-top: 15px;
+
 }
+
 footer {
-  background-color: #0a22f4;
+  background-color: #0A22F4;
 }
+
 .footerspace {
   display: flex;
   justify-content: space-around;
@@ -239,18 +197,18 @@ footer {
   width: 219px;
   color: white;
 }
+
 .rights p {
   color: white;
   font-size: 16px;
 }
+
 .made {
   justify-content: space-around;
 }
-.heart {
-}
-
 .bottomlogo {
   width: 126px;
+
 }
 
 .bottomlogo img {
