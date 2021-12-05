@@ -1,19 +1,40 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+. container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 h3 {
   width: 226px;
   height: 38px;
   color: #171717;
   font-size: 32px;
+  margin-top: 180px;
+  font-family: 'HelveticaNeue';
 }
 p {
   width: 463px;
   height: 99px;
   color: #171717;
   font-size: 16px;
+  margin-top: 60px;
+  font-family: 'HelveticaNeueLTW01-55Roman';
+}
+p span {
+    color: #0A22F4
 }
 img {
   width: 219px;
   height: 82px;
+  object-fit: cover;
 }
 . circles {
    display: flex;
@@ -26,7 +47,16 @@ img {
    background-color: #0A22F4;
    opacity: 0.3;
    border-radius: 50%;
+   margin-top: 180px;
 }
 . circles circle1 {
    opacity: 1;
+}
+. text{
+    display: flex;
+}
+.logos {
+    margin-top: 278px;
+    display: flex;
+    align-content: space-between;
 }
