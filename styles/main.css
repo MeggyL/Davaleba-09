@@ -5,8 +5,157 @@
   box-sizing: border-box;
   font-size: 100%;
 }
-.conteiner {
+/* reset css */
+
+.container {
   max-width: 1920px;
+  
   width: 100%;
-  margin: 0 auto;
+  background-color: #0A22F4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.basictext {
+  color: white;
+  padding-top: 200px;
+  padding-left: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Helvetica Neue';
+}
+.map {
+  width: 463px;
+  height: 197px;
+  margin-top: 58px;
+}
+.flex { 
+  display: flex;
+}
+
+.basictext h3 {
+  font-size: 32px;
+  width: 162px;
+  height: 38px;
+
+}
+
+.text {
+  font-size: 16px;
+  width: 463px;
+  height: 99px;
+  margin-top: 16px;
+}
+
+.flex img {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  padding: 22px;
+}
+
+.flex p {
+  font-size: 22px;
+  
+}
+.icons {
+  justify-content: flex-start;
+  margin-top: 92px;
+}
+.contactbox { 
+  justify-content: space-between;
+}
+.message { 
+  margin-left: 30px;
+}
+.contactbox p {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.form-field input {
+  width: 463px;
+  height: 60px;
+  background-color: #0A22F4;
+  border: none;
+  border-bottom: 0.5px solid white;
+
+}
+.inputposition {
+  margin-top: -550px;
+  margin-left: 850px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+button {
+  background-color: white;
+  width: 155px;
+  height: 55px;
+  padding-left: 18 45 18 36;
+  margin-left: 300px;
+  margin-top: 15px;
+
+}
+
+footer {
+  background-color: #0A22F4;
+}
+
+.footerspace {
+  display: flex;
+  justify-content: space-around;
+  height: 67px;
+  margin-top: 80px;
+  padding-top: 20px;
+}
+.rights {
+  height: 19px;
+  width: 219px;
+  color: white;
+}
+
+.rights p {
+  color: white;
+  font-size: 16px;
+}
+
+.made {
+  justify-content: space-around;
+}
+
+.heart {
+
+}
+
+.bottomlogo {
+  width: 126px;
+
+}
+
+.bottomlogo img {
+  width: 126px;
+}
+
+.made p {
+  color: white;
+  font-size: 16px;
+}
+
+.made1 {
+  width: 106px;
+  height: 16px;
+}
+
+.made2 {
+  width: 26px;
+  height: 16px;
 }
