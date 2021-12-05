@@ -22,19 +22,19 @@
   margin-left: 40px;
   font-family: "Helvetica Neue";
 }
-.circles {
+.ball {
   display: flex;
   margin-top: 84px;
   margin-right: 30px;
 }
-.circle-item {
+.ball-item {
   background-color: #ffffff;
   width: 10px;
   height: 10px;
   margin: 5px;
   border-radius: 50%;
 }
-.circles span {
+.ball span {
   background-color: #ffffff;
   width: 10px;
   height: 10px;
@@ -42,7 +42,7 @@
   border-radius: 50%;
   opacity: 0.3;
 }
-.box .circles {
+.box .ball {
   display: flex;
 }
 .images {
