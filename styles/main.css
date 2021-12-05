@@ -9,6 +9,7 @@
 
 .container {
   max-width: 1920px;
+  
   width: 100%;
   background-color: #0A22F4;
   display: flex;
@@ -23,6 +24,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-family: 'Helvetica Neue';
 }
 .map {
   width: 463px;
@@ -102,4 +104,58 @@ button {
   margin-left: 300px;
   margin-top: 15px;
 
+}
+
+footer {
+  background-color: #0A22F4;
+}
+
+.footerspace {
+  display: flex;
+  justify-content: space-around;
+  height: 67px;
+  margin-top: 80px;
+  padding-top: 20px;
+}
+.rights {
+  height: 19px;
+  width: 219px;
+  color: white;
+}
+
+.rights p {
+  color: white;
+  font-size: 16px;
+}
+
+.made {
+  justify-content: space-around;
+}
+
+.heart {
+
+}
+
+.bottomlogo {
+  width: 126px;
+
+}
+
+.bottomlogo img {
+  width: 126px;
+}
+
+.made p {
+  color: white;
+  font-size: 16px;
+}
+
+.made1 {
+  width: 106px;
+  height: 16px;
+}
+
+.made2 {
+  width: 26px;
+  height: 16px;
 }
